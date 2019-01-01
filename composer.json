@@ -1,0 +1,22 @@
+{
+  "name": "shemsedin/first-app",
+  "description": "Slim First App.",
+  "type": "project",
+  "require": {
+    "slim/slim": "^3.11",
+    "monolog/monolog": "^1.24",
+    "slim/php-view": "^2.2"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "FirstApp\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shemsedin Callaki",
+      "email": "shemsedin.callaki@gmail.com"
+    }
+  ]
+}
